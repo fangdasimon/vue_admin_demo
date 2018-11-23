@@ -53,7 +53,8 @@ export default {
         {
           title: '用户管理',
           subnavs: [
-            {title: '用户列表', router: '/user'}
+            {title: '用户列表', router: '/user/list'},
+            {title: '信息表格', router: '/user/search'}
           ]
         },
         {

@@ -4,7 +4,8 @@
 <template>
   <div>
     <keep-alive>
-      <list v-if="showList"></list>
+      <!-- <list v-if="showList"></list> -->
+      <infoTable v-if="showList"></infoTable>
     </keep-alive>
     <profile v-if="!showList"></profile>
   </div>
@@ -14,6 +15,7 @@
 import { mapGetters, mapActions, mapMutations } from 'vuex'
 import list from './list'
 import profile from './profile'
+import infoTable from './infoTable'
 export default {
   computed: {
     ...mapGetters({
@@ -22,7 +24,8 @@ export default {
   },
   components: {
     list,
-    profile
+    profile,
+    infoTable
   },
   methods: {
     ...mapMutations({

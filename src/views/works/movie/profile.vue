@@ -12,12 +12,12 @@
        <tr>
           <td><el-form-item label="编号"><el-input :readonly="true" class="readonly" v-model="profile.id"></el-input></el-form-item></td>
           <td><el-form-item label="作者"><el-input :readonly="true" class="readonly" v-model="profile.uid"></el-input></el-form-item></td>
-          <td><el-form-item label="创建时间"><el-input :readonly="true" class="readonly" v-model="createdAt"></el-input></td>
+          <td><el-form-item label="创建时间"><el-input :readonly="true" class="readonly" v-model="createdAt"></el-input></el-form-item></td>
        </tr>
        <tr>
           <td><el-form-item label="评分"><el-input :readonly="true" class="readonly" v-model="profile.score"></el-input></el-form-item></td>
-          <td><el-form-item label="浏览量"><el-input :readonly="true" class="readonly" v-model="profile.viewCount"></el-input></td>
-          <td><el-form-item label="链接"><el-input :readonly="true" class="readonly" v-model="profile.link"></el-input></td>
+          <td><el-form-item label="浏览量"><el-input :readonly="true" class="readonly" v-model="profile.viewCount"></el-input></el-form-item></td>
+          <td><el-form-item label="链接"><el-input :readonly="true" class="readonly" v-model="profile.link"></el-input></el-form-item></td>
        </tr>
        <tr>
           <td><el-form-item label="简介"><el-input type="textarea" :autosize="{ minRows: 4, maxRows: 6}" v-model="profile.brief" :readonly="true"></el-input></el-form-item></td>

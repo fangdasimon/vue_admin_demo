@@ -11,7 +11,6 @@
 <script>
 import { mapGetters, mapActions, mapMutations } from 'vuex'
 export default {
-  name: 'header',
   computed: {
     ...mapGetters({
       auth: 'auth'

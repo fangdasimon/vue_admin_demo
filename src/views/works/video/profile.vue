@@ -19,11 +19,11 @@
        <tr>
           <td><el-form-item label="编号"><el-input :readonly="true" class="readonly" v-model="profile.id"></el-input></el-form-item></td>
           <td><el-form-item label="标题"><el-input :readonly="true" class="readonly" v-model="profile.title"></el-input></el-form-item></td>
-          <td><el-form-item label="创建时间"><el-input :readonly="true" class="readonly" v-model="createdAt"></el-input></td>
+          <td><el-form-item label="创建时间"><el-input :readonly="true" class="readonly" v-model="createdAt"></el-input></el-form-item></td>
        </tr>
        <tr>
           <td><el-form-item label="简介"><el-input type="textarea" :autosize="{ minRows: 4, maxRows: 6}" v-model="profile.brief" :readonly="true"></el-input></el-form-item></td>
-          <td><el-form-item label="浏览量"><el-input :readonly="true" class="readonly" v-model="profile.viewCount"></el-input></td>
+          <td><el-form-item label="浏览量"><el-input :readonly="true" class="readonly" v-model="profile.viewCount"></el-input></el-form-item></td>
        </tr>
       </table>
     </el-form>

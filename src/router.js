@@ -26,7 +26,9 @@ import systemAdmin from './views/system/admin'
 
 import tag from './views/tag/index'
 
-import user from './views/user'
+// import user from './views/user'
+import list from './views/user/list'
+import infoTable from './views/user/infoTable'
 
 import worksPhoto from './views/works/photo'
 import worksVideo from './views/works/video'
@@ -94,9 +96,14 @@ const routers = new VueRouter({
           component: tag
         },
         {
-          path: 'user',
+          path: 'user/list',
           name: '用户管理-用户列表',
-          component: user
+          component: list
+        },
+        {
+          path: 'user/search',
+          name: '用户搜索列表',
+          component: infoTable
         },
         {
           path: 'works/photo',
